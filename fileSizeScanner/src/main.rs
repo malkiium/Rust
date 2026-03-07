@@ -5,7 +5,7 @@ use std::path::{Path, PathBuf};
 use std::sync::{Arc, Mutex};
 
 const SIZE_LIMIT: u64 = 2 * 1024 * 1024 * 1024; // 2 GB
-const START_PATH: &str = "C:\\Users\\eliha"; // Change this as needed
+const START_PATH: &str = "~/"; // Change this as needed
 
 fn get_size(path: &Path) -> u64 {
     if path.is_file() {
